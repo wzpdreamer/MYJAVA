@@ -4,11 +4,11 @@ public class fibonacci {
         Scanner input = new Scanner(System.in);
         System.out.println("Please input:");
         int n = input.nextInt();
-        fibonacci(n);
-        System.out.println("第"+(n+1)+"项溢出。");
+        fibonacci1(n);
+        System.out.println("第"+47+"项溢出。");
     }
-    public static void fibonacci(int n) {
-        int a =1, b= 1, c =0;
+    private static void fibonacci1(int n) {
+        int a =1, b= 1, c;
         if (n < 1) {
             System.out.println(-1);
         }
