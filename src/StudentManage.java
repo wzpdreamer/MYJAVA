@@ -13,7 +13,7 @@ public class StudentManage {
     }
     //设置学号
     public void Applystunum(Student stu){
-        if(stu.getIsIsgstu()){
+        if(stu.getIsgrastu()){
             yjsstunum++;
              stu.setStunum(yjsstunum);
         }

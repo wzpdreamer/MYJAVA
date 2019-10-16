@@ -37,5 +37,7 @@ public class Management {
         teamanage.print();
         coumanage.print();
         bjmanage.print();
+        stumanage.isgraduated("yes",s);
+        stumanage.print();
     }
 }

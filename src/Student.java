@@ -23,7 +23,7 @@ public class Student{
     public String getTitleofpaper(){
         return titleofpaper;
     }
-    public boolean getIsIsgstu() {
+    public boolean getIsgrastu() {
         return isgraduatestu;
     }
     public int getStubjnum(){return stubjnum;}
