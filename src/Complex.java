@@ -34,17 +34,17 @@ public class Complex {
     public Complex minus(Complex C) {
         return new Complex(this.a-C.a,this.b-C.b);
     }
-     /*复数的乘法运算 z = x * y的运算法则是：
-     z.实部 = x.实部 * y.实部 - x.虚部 * y.虚部
-     z.虚部 = x.实部 * y.虚部 + x.虚部 * y.实部*/
+    /*复数的乘法运算 z = x * y的运算法则是：
+    z.实部 = x.实部 * y.实部 - x.虚部 * y.虚部
+    z.虚部 = x.实部 * y.虚部 + x.虚部 * y.实部*/
     public Complex multiply(Complex C) {
         double c1 = this.a*C.a - this.b*C.b;
         double c2 = this.a*C.b + this.b*C.a;
         return new Complex(c1,c2);
     }
-     /*复数的除法运算 z = x / y 的运算法则是：
-     z.实部 = (x.实部 * y.实部 + x.虚部 * y.虚部) / (y.实部* y.实部 + y.虚部 * y.虚部)
-     z.虚部 = (x.虚部 * y.实部 - x.实部 * y.虚部) / (y.实部 * y.实部 + y.虚部 * y.虚部)*/
+    /*复数的除法运算 z = x / y 的运算法则是：
+    z.实部 = (x.实部 * y.实部 + x.虚部 * y.虚部) / (y.实部* y.实部 + y.虚部 * y.虚部)
+    z.虚部 = (x.虚部 * y.实部 - x.实部 * y.虚部) / (y.实部 * y.实部 + y.虚部 * y.虚部)*/
     public Complex divide(Complex C) {
         if(C.a==0.0&&C.b==0.0) {
             System.err.println("除数不能为0！");
