@@ -5,6 +5,6 @@ public class Shape {
         this._text=text;
     }
     public void draw(){
-        System.out.println("Shape"+_text);
+        System.out.println("Shape:"+_text);
     }
 }

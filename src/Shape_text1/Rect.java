@@ -6,6 +6,6 @@ public class Rect extends Shape {
         this.text = text;
     }
     public void draw(){
-        System.out.println("Rect"+text);
+        System.out.println("Rect:"+text);
     }
 }

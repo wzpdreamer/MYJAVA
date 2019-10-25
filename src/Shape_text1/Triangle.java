@@ -6,6 +6,6 @@ public class Triangle extends Shape{
         this.text = text;
     }
     public void draw(){
-        System.out.println("Triangle"+text);
+        System.out.println("Triangle:"+text);
     }
 }

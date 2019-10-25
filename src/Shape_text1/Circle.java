@@ -7,6 +7,6 @@ public class Circle extends Shape {
         this.text = text;
     }
     public void draw(){
-        System.out.println("Circle"+text);
+        System.out.println("Circle:"+text);
     }
 }
