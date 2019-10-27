@@ -5,6 +5,7 @@ public class Rect extends Shape {
         super(text);
         this.text = text;
     }
+    @Override
     public void draw(){
         System.out.println("Rect:"+text);
     }

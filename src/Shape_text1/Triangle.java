@@ -5,6 +5,7 @@ public class Triangle extends Shape{
         super(text);
         this.text = text;
     }
+    @Override
     public void draw(){
         System.out.println("Triangle:"+text);
     }

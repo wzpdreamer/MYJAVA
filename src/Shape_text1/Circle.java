@@ -6,6 +6,7 @@ public class Circle extends Shape {
         super(text);
         this.text = text;
     }
+    @Override
     public void draw(){
         System.out.println("Circle:"+text);
     }
