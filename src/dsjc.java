@@ -28,7 +28,7 @@ public class dsjc {
             alength=blength;
             blength=0;
         }
-        for(int k=0;k<=alength;k++) {
+        for(int k=0;k<alength;k++) {
             System.out.print(a[k]);
         }
     }
