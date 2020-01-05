@@ -1,3 +1,5 @@
+package 上课;
+
 import java.util.Scanner;
 public class dsjcxj {
     public static void main(String[] args) {

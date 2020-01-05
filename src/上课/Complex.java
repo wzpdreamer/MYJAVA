@@ -1,3 +1,5 @@
+package 上课;
+
 import java.util.Scanner;
 public class Complex {
     private double a,b;
